@@ -1,0 +1,18 @@
+BeginParams
+#parameter	init.	low	higher	tx_in	tx_ost	tx_out	fmt
+P01	31	0	500	none	none	none	F16.4
+P02	0.15555	0.02	0.2	none	none	none	F16.4
+P03	0.09	0.02	0.15	none	none	none	F16.4
+P04	1000	0	5000	none	none	none	F16.4
+P05	0.05	0	1	none	none	none	F16.4
+P06	0.95	0	1	none	none	none	F16.3
+P07	91	80	98	none	none	none	F16.2
+P08	0.12	0	1	none	none	none	F12.2
+P09	45.93	0	400	none	none	none	F12.2
+P10	1	-5	5	none	none	none	F16.3
+P11	0.5	-5	5	none	none	none	F16.3
+P12	1	0	1	none	none	none	F16.3
+P13	4.5	0	20	none	none	none	F16.3
+P14	4.5	0	20	none	none	none	F16.3
+P15	0.5	0.05	0.8	none	none	none	F16.3
+EndParams

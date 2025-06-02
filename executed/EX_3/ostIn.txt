@@ -1,0 +1,132 @@
+ProgramType  	    GLUE
+ObjectiveFunction   GCOP
+ModelExecutable     Ost-SWAT.bat
+#PreserveBestModel   save_best.bat
+# "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" performance.R
+
+ModelSubdir processor_
+
+BeginExtraDirs
+TxtInOut
+TxtInOut_tpl
+EndExtraDirs
+
+BeginFilePairs
+ TxtInOut_tpl\000010004.gw.tpl; TxtInOut_tpl\000010004.gw
+ TxtInOut_tpl\000010005.gw.tpl; TxtInOut_tpl\000010005.gw
+ TxtInOut_tpl\000020004.gw.tpl; TxtInOut_tpl\000020004.gw
+ TxtInOut_tpl\000020005.gw.tpl; TxtInOut_tpl\000020005.gw
+ TxtInOut_tpl\000030003.gw.tpl; TxtInOut_tpl\000030003.gw
+ TxtInOut_tpl\000030004.gw.tpl; TxtInOut_tpl\000030004.gw
+ TxtInOut_tpl\000010001.gw.tpl; TxtInOut_tpl\000010001.gw
+ TxtInOut_tpl\000010002.gw.tpl; TxtInOut_tpl\000010002.gw
+ TxtInOut_tpl\000020002.gw.tpl; TxtInOut_tpl\000020002.gw
+ TxtInOut_tpl\000020003.gw.tpl; TxtInOut_tpl\000020003.gw
+ TxtInOut_tpl\000030001.gw.tpl; TxtInOut_tpl\000030001.gw
+ TxtInOut_tpl\000030002.gw.tpl; TxtInOut_tpl\000030002.gw
+ TxtInOut_tpl\000010003.gw.tpl; TxtInOut_tpl\000010003.gw
+ TxtInOut_tpl\000020001.gw.tpl; TxtInOut_tpl\000020001.gw
+ TxtInOut_tpl\000030005.gw.tpl; TxtInOut_tpl\000030005.gw
+ TxtInOut_tpl\000030001.hru.tpl; TxtInOut_tpl\000030001.hru
+ TxtInOut_tpl\000030002.hru.tpl; TxtInOut_tpl\000030002.hru
+ TxtInOut_tpl\000010001.mgt.tpl; TxtInOut_tpl\000010001.mgt
+ TxtInOut_tpl\000010002.mgt.tpl; TxtInOut_tpl\000010002.mgt
+ TxtInOut_tpl\000010003.mgt.tpl; TxtInOut_tpl\000010003.mgt
+ TxtInOut_tpl\000010004.mgt.tpl; TxtInOut_tpl\000010004.mgt
+ TxtInOut_tpl\000010005.mgt.tpl; TxtInOut_tpl\000010005.mgt
+ TxtInOut_tpl\000020001.mgt.tpl; TxtInOut_tpl\000020001.mgt
+ TxtInOut_tpl\000020002.mgt.tpl; TxtInOut_tpl\000020002.mgt
+ TxtInOut_tpl\000020003.mgt.tpl; TxtInOut_tpl\000020003.mgt
+ TxtInOut_tpl\000020004.mgt.tpl; TxtInOut_tpl\000020004.mgt
+ TxtInOut_tpl\000020005.mgt.tpl; TxtInOut_tpl\000020005.mgt
+ TxtInOut_tpl\000030001.mgt.tpl; TxtInOut_tpl\000030001.mgt
+ TxtInOut_tpl\000030002.mgt.tpl; TxtInOut_tpl\000030002.mgt
+ TxtInOut_tpl\000030003.mgt.tpl; TxtInOut_tpl\000030003.mgt
+ TxtInOut_tpl\000030004.mgt.tpl; TxtInOut_tpl\000030004.mgt
+ TxtInOut_tpl\000030005.mgt.tpl; TxtInOut_tpl\000030005.mgt
+ TxtInOut_tpl\000030006.mgt.tpl; TxtInOut_tpl\000030006.mgt
+ TxtInOut_tpl\000030007.mgt.tpl; TxtInOut_tpl\000030007.mgt
+ TxtInOut_tpl\000030008.mgt.tpl; TxtInOut_tpl\000030008.mgt
+ TxtInOut_tpl\000030009.mgt.tpl; TxtInOut_tpl\000030009.mgt
+ TxtInOut_tpl\000030010.mgt.tpl; TxtInOut_tpl\000030010.mgt
+ TxtInOut_tpl\000030011.mgt.tpl; TxtInOut_tpl\000030011.mgt
+ TxtInOut_tpl\000010001.sol.tpl; TxtInOut_tpl\000010001.sol
+ TxtInOut_tpl\000010002.sol.tpl; TxtInOut_tpl\000010002.sol
+ TxtInOut_tpl\000010003.sol.tpl; TxtInOut_tpl\000010003.sol
+ TxtInOut_tpl\000010004.sol.tpl; TxtInOut_tpl\000010004.sol
+ TxtInOut_tpl\000010005.sol.tpl; TxtInOut_tpl\000010005.sol
+ TxtInOut_tpl\000020001.sol.tpl; TxtInOut_tpl\000020001.sol
+ TxtInOut_tpl\000020002.sol.tpl; TxtInOut_tpl\000020002.sol
+ TxtInOut_tpl\000020003.sol.tpl; TxtInOut_tpl\000020003.sol
+ TxtInOut_tpl\000020004.sol.tpl; TxtInOut_tpl\000020004.sol
+ TxtInOut_tpl\000020005.sol.tpl; TxtInOut_tpl\000020005.sol
+ TxtInOut_tpl\000030001.sol.tpl; TxtInOut_tpl\000030001.sol
+ TxtInOut_tpl\000030002.sol.tpl; TxtInOut_tpl\000030002.sol
+ TxtInOut_tpl\000030003.sol.tpl; TxtInOut_tpl\000030003.sol
+ TxtInOut_tpl\000030004.sol.tpl; TxtInOut_tpl\000030004.sol
+ TxtInOut_tpl\000030005.sol.tpl; TxtInOut_tpl\000030005.sol
+ TxtInOut_tpl\000030006.sol.tpl; TxtInOut_tpl\000030006.sol
+ TxtInOut_tpl\000030007.sol.tpl; TxtInOut_tpl\000030007.sol
+ TxtInOut_tpl\000030008.sol.tpl; TxtInOut_tpl\000030008.sol
+ TxtInOut_tpl\000030009.sol.tpl; TxtInOut_tpl\000030009.sol
+ TxtInOut_tpl\000030010.sol.tpl; TxtInOut_tpl\000030010.sol
+ TxtInOut_tpl\000030011.sol.tpl; TxtInOut_tpl\000030011.sol
+ TxtInOut_tpl\basins.bsn.tpl; TxtInOut_tpl\basins.bsn
+EndFilePairs
+
+
+#Parameter/DV Specification
+BeginParams
+#parameter	init.	low	higher	tx_in	tx_ost	tx_out	fmt
+P01	31	0	500	none	none	none	F16.4
+P02	0.15555	0.02	0.2	none	none	none	F16.4
+P03	0.09	0.02	0.15	none	none	none	F16.4
+P04	1000	0	5000	none	none	none	F16.4
+P05	0.05	0	1	none	none	none	F16.4
+P06	0.95	0	1	none	none	none	F16.3
+P07	91	80	98	none	none	none	F16.2
+P08	0.12	0	1	none	none	none	F12.2
+P09	45.93	0	400	none	none	none	F12.2
+P10	1	-5	5	none	none	none	F16.3
+P11	0.5	-5	5	none	none	none	F16.3
+P12	1	0	1	none	none	none	F16.3
+P13	4.5	0	20	none	none	none	F16.3
+P14	4.5	0	20	none	none	none	F16.3
+P15	0.5	0.05	0.8	none	none	none	F16.3
+EndParams
+
+
+
+BeginResponseVars
+  #name	  filename			        keyword		line	col	token
+  KGE      ./TxtInOut/ObjFunc.txt;	OST_NULL	1	7	','
+EndResponseVars
+
+BeginTiedRespVars
+  NegKGE 1 KGE wsum -1.00
+EndTiedRespVars
+
+BeginGCOP
+  CostFunction NegKGE
+  PenaltyFunction APM
+EndGCOP
+
+BeginConstraints
+	# not needed when no constraints, but PenaltyFunction statement above is required
+	# name     type     penalty    lwr   upr   resp.var
+EndConstraints
+
+# Randomsed control added
+RandomSeed  4321
+
+#Algorithm should be last in this file:
+
+
+BeginGLUE 
+SamplesPerIter    5 
+NumBehavioral  	  15 
+MaxSamples        45 
+Threshold         -0.6 
+EndGLUE 
+
+
