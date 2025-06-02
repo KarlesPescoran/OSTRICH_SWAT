@@ -1,0 +1,2 @@
+SM_mod	RoS_fl	Tfac	rfac_s	rfac_i	SWRfac	Pfac	PTHR	GM_Init	fgm_cor	MP_fl	tmix	Exp_fac
+0	0	1.5	0.002	0.002	0.002	2	0.1	1	0	0	6.5	0.5

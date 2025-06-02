@@ -1,0 +1,56 @@
+ProgramType  	    DDS
+ObjectiveFunction   GCOP
+ModelExecutable     Ost-SWAT.bat
+#PreserveBestModel   save_best.bat
+# "C:\Program Files\R\R-4.4.3\bin\Rscript.exe" performance.R
+
+ModelSubdir processor_
+
+BeginExtraDirs
+TxtInOut
+TxtInOut_tpl
+EndExtraDirs
+
+BeginFilePairs
+
+EndFilePairs
+
+#Parameter/DV Specification
+BeginParams
+
+EndParams
+
+
+BeginResponseVars
+  #name	  filename			        keyword		line	col	token
+  NS      ./TxtInOut/ObjFunc.txt;	OST_NULL	1	4	','
+EndResponseVars
+
+BeginTiedRespVars
+  NegNS 1 NS wsum -1.00
+EndTiedRespVars
+
+BeginGCOP
+  CostFunction NegNS
+  PenaltyFunction APM
+EndGCOP
+
+BeginConstraints
+	# not needed when no constraints, but PenaltyFunction statement above is required
+	# name     type     penalty    lwr   upr   resp.var
+EndConstraints
+
+# Randomsed control added
+RandomSeed  4321
+
+#Algorithm should be last in this file:
+
+
+BeginDDSAlg
+	PerturbationValue 0.20
+	MaxIterations 5
+	#UseRandomParamValues
+	UseInitialParamValues
+EndDDSAlg
+
+
