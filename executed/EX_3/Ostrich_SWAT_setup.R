@@ -4,7 +4,7 @@
 
 #An algorithm to create Ostrich input files from SWAT/SWAT-GL model files.
 
-#Check the "SWAT calibration with Ostrich: User’s Guide" in ()
+#Check the "SWAT calibration with Ostrich: User’s Guide" in (https://github.com/KarlesPescoran/OSTRICH_SWAT)
 #More info about OSTRICH in (https://www.civil.uwaterloo.ca/envmodelling/Ostrich.html)
 
 #Version History
