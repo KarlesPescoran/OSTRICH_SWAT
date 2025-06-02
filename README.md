@@ -1,7 +1,7 @@
 # OSTRICH_SWAT
 OSTRICH_SWAT is a tool to set-up SWAT for calibration with OSTRICH
 
-This repository includes 3 examples (also executed) and [User's guide](GuiaUsuario.pdf)
+This repository includes 3 [examples](examples) (also [executed](executed)) and a [User's guide](GuiaUsuario.pdf)
 
 ## License
 
