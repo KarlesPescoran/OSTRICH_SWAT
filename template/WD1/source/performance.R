@@ -21,9 +21,9 @@ invisible(suppressMessages(suppressWarnings(lapply(requiredPackages, library, ch
 ###############################################################################
 # Full paths
 #Workdir              <- "C:/PROYECTOS/OSTRICH_cleaning/PRUEBA01"
-source_path          <- "C:/OSTRICH_SWAT/EX_1/source"
-targetVariables_path <- "C:/OSTRICH_SWAT/EX_1/variables.xlsx"
-obsVariables_path    <- "C:/OSTRICH_SWAT/data/obsm"
+source_path          <- "C:/OSTRICH_SWAT/template/WD1/source"
+targetVariables_path <- "C:/OSTRICH_SWAT/template/WD1/variables.xlsx"
+obsVariables_path    <- "C:/OSTRICH_SWAT/template/obs"
 # Just the name
 TxtInOut_name        <- "TxtInOut"
 

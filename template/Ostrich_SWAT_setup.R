@@ -4,7 +4,7 @@
 
 #An algorithm to create Ostrich input files from SWAT/SWAT-GL model files.
 
-#Check the "SWAT calibration with Ostrich: User’s Guide" in ()
+#Check the "SWAT calibration with Ostrich: User’s Guide" in (https://github.com/KarlesPescoran/OSTRICH_SWAT)
 #More info about OSTRICH in (https://www.civil.uwaterloo.ca/envmodelling/Ostrich.html)
 
 #Version History
@@ -17,11 +17,11 @@
 ###############################################################################
 # Set working directory (it should contain “TxtInOut” dir) ####################
 R_exe                 <- "C:/Program Files/R/R-4.4.3/bin/Rscript.exe"
-Workdir               <- "C:/OSTRICH_SWAT/EX_1"
-SWATParams_path       <- "C:/OSTRICH_SWAT/data/swatParam.txt"
-targetParams_path     <- "C:/OSTRICH_SWAT/EX_1/params.xlsx"
+Workdir               <- "C:/OSTRICH_SWAT/template/WD1"
+SWATParams_path       <- "C:/OSTRICH_SWAT/template/swatParam.txt"
+targetParams_path     <- "C:/OSTRICH_SWAT/template/WD1/params.xlsx"
 SWATexe               <- "C:/OSTRICH_SWAT/exe/Rev_692_64rel.exe"
-source_path           <- "C:/OSTRICH_SWAT/EX_1/source"
+source_path           <- "C:/OSTRICH_SWAT/template/WD1/source"
 TxtInOut_path         <- "TxtInOut"
 
 
