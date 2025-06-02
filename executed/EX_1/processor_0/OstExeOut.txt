@@ -1,0 +1,79 @@
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+        1 archivo(s) copiado(s).
+                SWAT2022               
+               Rev. 691               
+      Soil & Water Assessment Tool    
+               PC Version             
+ Program reading from file.cio . . . executing
+
+  Executing year    1
+  Executing year    2
+  Executing year    3
+  Executing year    4
+  Executing year    5
+  Executing year    6
+  Executing year    7
+  Executing year    8
+  Executing year    9
+  Executing year   10
+
+ Execution successfully completed 
+Time difference of 0.8496699 secs

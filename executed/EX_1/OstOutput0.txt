@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------
+ OSTRICH version 17.12.19 (Built Dec 19 2017 @ 11:07:05)
+
+ A computer program for model-independent calibration and optimization.
+
+ Author             L. Shawn Matott
+ Copyright (C) 2007 L. Shawn Matott
+
+ This program is free software; you can redistribute 
+ it and/or modify it under the terms of the GNU  
+ General Public License as published by the Free 
+ Software Foundation; either version 2 of the 
+ License, or(at your option) any later version. 
+
+ This program is distributed in the hope that it will 
+ be useful, but WITHOUT ANY WARRANTY; without even 
+ the implied warranty of MERCHANTABILITY or FITNESS 
+ FOR A PARTICULAR PURPOSE. See the GNU General Public 
+ License for more details. 
+
+ You should have received a copy of the GNU General 
+ Public License along with this program; if not, 
+ write to the Free Software Foundation, Inc., 59 
+ Temple Place, Suite 330, Boston, MA 02111-1307 USA 
+--------------------------------------------------------------------------
+
+Ostrich Setup
+Model                  : Ost-SWAT.bat > OstExeOut.txt
+Algorithm              : Dynamically Dimensioned Search Algorithm (DDS)
+Objective Function     : GCOP
+Number of Parameters   : 15
+Number of Tied Params  : 0
+Number of Observations : 0
+Seed for Random Nums.  : 4321
+Number of Resp. Vars        : 1
+Number of Tied Resp. Vars   : 1
+Number of Constraints       : 0
+Penalty Method              : Additive Penalty Method (APM)
+
+Ostrich Run Record
+trial    best fitness   P01           P02           P03           P04           P05           P06           P07           P08           P09           P10           P11           P12           P13           P14           P15            trials remaining
+1     -8.532467E-01  3.100000E+01  1.555500E-01  9.000000E-02  1.000000E+03  5.000000E-02  9.500000E-01  9.100000E+01  1.200000E-01  4.593000E+01  1.000000E+00  5.000000E-01  1.000000E+00  4.500000E+00  4.500000E+00  5.000000E-01  4.000000E+00
+4     -8.559237E-01  3.100000E+01  1.555500E-01  9.000000E-02  1.000000E+03  5.000000E-02  8.941000E-01  9.100000E+01  1.200000E-01  4.593000E+01  1.000000E+00  5.000000E-01  1.000000E+00  4.500000E+00  4.500000E+00  5.000000E-01  1.000000E+00
+5     -8.559237E-01  3.100000E+01  1.555500E-01  9.000000E-02  1.000000E+03  5.000000E-02  8.941000E-01  9.100000E+01  1.200000E-01  4.593000E+01  1.000000E+00  5.000000E-01  1.000000E+00  4.500000E+00  1.074386E+01  5.000000E-01  0.000000E+00
+5     -8.559237E-01  3.100000E+01  1.555500E-01  9.000000E-02  1.000000E+03  5.000000E-02  8.941000E-01  9.100000E+01  1.200000E-01  4.593000E+01  1.000000E+00  5.000000E-01  1.000000E+00  4.500000E+00  1.074386E+01  5.000000E-01  0.000000E+00
+
+Optimal Parameter Set
+Objective Function : -8.559237E-01
+P01                : 3.100000E+01
+P02                : 1.555500E-01
+P03                : 9.000000E-02
+P04                : 1.000000E+03
+P05                : 5.000000E-02
+P06                : 8.941000E-01
+P07                : 9.100000E+01
+P08                : 1.200000E-01
+P09                : 4.593000E+01
+P10                : 1.000000E+00
+P11                : 5.000000E-01
+P12                : 1.000000E+00
+P13                : 4.500000E+00
+P14                : 1.074386E+01
+P15                : 5.000000E-01
+
+Summary of Constraints
+
+Algorithm Metrics
+Algorithm               : Dynamically-Dimensioned Search Algorithm (DDS)
+Desired Convergence Val : N/A
+Actual Convergence Val  : N/A
+Max Generations         : 5
+Actual Generations      : 5
+Peterbation Value       : 0.200000
+Total Evals             : 6
+Telescoping Strategy    : none
+Algorithm successfully converged on a solution, however more runs may be needed
