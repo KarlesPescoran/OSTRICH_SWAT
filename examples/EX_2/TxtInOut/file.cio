@@ -56,7 +56,7 @@ Special Projects:
                0    | ICLB: auto-calibration option: 0=no, 1=yes
                     | CALFILE: auto-calibration parameter file
 Output Information:
-               1    | IPRINT: print code (month, day, year)
+               0    | IPRINT: print code (month, day, year)
                0    | NYSKIP: number of years to skip output printing/summarization
                0    | ILOG: streamflow print code: 1=print log of streamflow
                0    | IPRP: print code for output.pst file: 1= print pesticide output
