@@ -9,7 +9,9 @@ This repository includes 3 [examples](examples) (also [executed](executed)) and 
 
 ## Citation
 
-Please cite this as: Pescoran, K. (2025). KarlesPescoran/OSTRICH_SWAT: OSTRICH_SWAT (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15580858
+Please cite this as: 
+
+Pescoran, K. (2025). KarlesPescoran/OSTRICH_SWAT: OSTRICH_SWAT (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15580858
 
 ## License
 
