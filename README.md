@@ -4,7 +4,7 @@ OSTRICH_SWAT is a tool to set-up SWAT for calibration with OSTRICH
 This repository includes 3 [examples](examples) (also [executed](executed)) and a [User's guide](GuiaUsuario.pdf)
 
 * EX_1: This is an example of how to calibrate SWAT with the singleobjective calibration method “Dynamically Dimensioned Search” (DDS). The calibration variable is the watershed outflow.
-* EX_2: This is an example of how to calibrate SWAT-GL with the multi-objective calibration method “Asynchronous Parallel Dynamically Dimensioned Search” (PDDS). The calibration variables are the outflow and glacier area of the watershed .
+* EX_2: This is an example of how to calibrate SWAT-GL with the multi-objective calibration method “Asynchronous Parallel Dynamically Dimensioned Search” (PADDS). The calibration variables are the outflow and glacier area of the watershed .
 * EX_3: This is an example of how to calibrate SWAT with the singleobjective calibration method “Generalized Likelihood Uncertainty Estimation” (GLUE). The calibration variable is the watershed outflow.
 
 ## License
