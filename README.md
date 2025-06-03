@@ -7,6 +7,10 @@ This repository includes 3 [examples](examples) (also [executed](executed)) and 
 * EX_2: This is an example of how to calibrate SWAT-GL with the multi-objective calibration method “Asynchronous Parallel Dynamically Dimensioned Search” (PADDS). The calibration variables are the outflow and glacier area of the watershed .
 * EX_3: This is an example of how to calibrate SWAT with the singleobjective calibration method “Generalized Likelihood Uncertainty Estimation” (GLUE). The calibration variable is the watershed outflow.
 
+## Citation
+
+Please cite this as: Pescoran, K. (2025). KarlesPescoran/OSTRICH_SWAT: OSTRICH_SWAT (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.15580858
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
