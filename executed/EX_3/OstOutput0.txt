@@ -70,13 +70,13 @@ Behavioral Threshold    : -6.000000E-01
 Max Samples             : 45
 Actual Num. Behavorial  : 15
 Desired Num. Behavorial : 15
-Seconds Spent on MPI    : 0.000004
-Secs Spent in Setup     : 0.017437
-Secs Spent in Evaluate  : 43.818553
-Secs Spent in Generate  : 0.000074
-Secs Spent in Update    : 0.000009
-Secs required overall   : 45.974012
-Secs not accounted for  : 2.137938
+Seconds Spent on MPI    : 0.000005
+Secs Spent in Setup     : 0.013104
+Secs Spent in Evaluate  : 44.210647
+Secs Spent in Generate  : 0.000089
+Secs Spent in Update    : 0.000010
+Secs required overall   : 46.333806
+Secs not accounted for  : 2.109956
 
 Serial Count            : 4
 

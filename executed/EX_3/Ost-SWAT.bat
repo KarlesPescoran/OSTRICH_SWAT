@@ -66,4 +66,4 @@ C:\OSTRICH_SWAT\exe\Rev_692_64rel.exe
 
 cd ..
 
-"C:\Program Files\R\R-4.4.3\bin\Rscript.exe" "C:\OSTRICH_SWAT\EX_3\source\performance.R"
+"C:\Program Files\R\R-4.4.3\bin\Rscript.exe" "C:\OSTRICH_SWAT\executed\EX_3\source\performance.R"

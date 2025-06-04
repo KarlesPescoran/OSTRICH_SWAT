@@ -5,7 +5,7 @@
 #An algorithm to create calculate objective functions from SWAT/SWATGL outputs.
 
 #Version History
-#28-05-2025
+#04-06-2025
 ###############################################################################
 
 start <- Sys.time()
@@ -20,7 +20,7 @@ invisible(suppressMessages(suppressWarnings(lapply(requiredPackages, library, ch
 # SET FILE PATHS (USER)
 ###############################################################################
 # Full paths
-#Workdir              <- "C:/PROYECTOS/OSTRICH_cleaning/PRUEBA01"
+#Workdir              <- "C:/OSTRICH_SWAT/executed/EX_3"
 source_path          <- "C:/OSTRICH_SWAT/executed/EX_3/source"
 targetVariables_path <- "C:/OSTRICH_SWAT/executed/EX_3/variables.xlsx"
 obsVariables_path    <- "C:/OSTRICH_SWAT/data/obsm"
@@ -321,16 +321,29 @@ write.table(ObjFunc_values,paste0(TxtInOut_name,"/ObjFunc.txt"),
             sep = ",")
 
 ObjFunc_values_prev_path <- paste0(save_output_name,"/ObjFunc.txt")
-if(file.exists(ObjFunc_values_prev_path)){
-  ObjFunc_values_prev <- read.table(ObjFunc_values_prev_path, sep = ",", header = TRUE)
-  ObjFunc_values_prev <- bind_rows(ObjFunc_values_prev, ObjFunc_values)
+if(!file.exists(ObjFunc_values_prev_path)){
+  write.table(ObjFunc_values,ObjFunc_values_prev_path,
+              row.names = FALSE,
+              quote = FALSE,
+              sep = ",")
 }else{
-  ObjFunc_values_prev <- ObjFunc_values
+  tmp <- read.table(paste0(TxtInOut_name,"/ObjFunc.txt"),
+                    sep = ",",
+                    header = TRUE, 
+                    colClasses = "character",
+                    stringsAsFactors = FALSE)
+  
+  cat(apply(tmp, 1, function(row) paste(row, collapse = ",")),
+      file = ObjFunc_values_prev_path, append = TRUE, sep = "\n")
 }
 
-write.table(ObjFunc_values_prev,paste0(save_output_name,"/ObjFunc.txt"),
-            row.names = FALSE,
-            quote = FALSE,
-            sep = ",")
+time_track <- paste0(save_output_name,"/time_track.txt")
+if(!file.exists(time_track)){
+  write(paste0("Iteración N° ",Nsim, " :", Sys.time()),
+        file = time_track)
+}else{
+  cat(paste0("Iteración N° ",Nsim, " :", Sys.time()),
+      file = time_track, append = TRUE, sep = "\n")
+}
 
 print(Sys.time() - start)
