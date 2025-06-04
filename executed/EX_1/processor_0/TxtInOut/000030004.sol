@@ -8,7 +8,7 @@
  Depth                [mm]:      300.00     1000.00
  Bulk Density Moist [g/cc]:        1.00        1.10
  Ave. AW Incl. Rock Frag  :        0.12        0.12
- Ksat. (est.)      [mm/hr]:       45.93       45.93
+ Ksat. (est.)      [mm/hr]:       23.74       23.74
  Organic Carbon [weight %]:        2.80        1.20
  Clay           [weight %]:       19.00       21.00
  Silt           [weight %]:       43.00       31.00

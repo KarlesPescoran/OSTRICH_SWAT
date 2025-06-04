@@ -1,13 +1,13 @@
 Basin data           .bsn file 5/19/2025 12:00:00 AM ArcSWAT 2012.10_7.23
 Modeling Options: Land Area
 Water Balance:
-           1.000    | SFTMP : Snowfall temperature [ºC]
-           0.500    | SMTMP : Snow melt base temperature [ºC]
-           4.500    | SMFMX : Melt factor for snow on June 21 [mm H2O/ºC-day]
-          10.744    | SMFMN : Melt factor for snow on December 21 [mm H2O/ºC-day]
-           1.000    | TIMP : Snow pack temperature lag factor
+          -1.691    | SFTMP : Snowfall temperature [ºC]
+           2.877    | SMTMP : Snow melt base temperature [ºC]
+           3.006    | SMFMX : Melt factor for snow on June 21 [mm H2O/ºC-day]
+           6.005    | SMFMN : Melt factor for snow on December 21 [mm H2O/ºC-day]
+           0.504    | TIMP : Snow pack temperature lag factor
            1.000    | SNOCOVMX : Minimum snow water content that corresponds to 100% snow cover [mm]
-           0.500    | SNO50COV : Fraction of snow volume represented by SNOCOVMX that corresponds to 50% snow cover
+           0.653    | SNO50COV : Fraction of snow volume represented by SNOCOVMX that corresponds to 50% snow cover
                1    | IPET: PET method: 0=priest-t, 1=pen-m, 2=har, 3=read into model
                     | PETFILE: name of potential ET input file
            0.950    | ESCO: soil evaporation compensation factor
