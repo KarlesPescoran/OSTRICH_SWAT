@@ -20,7 +20,7 @@ R_exe                 <- "C:/Program Files/R/R-4.4.3/bin/Rscript.exe"
 Workdir               <- "C:/OSTRICH_SWAT/examples/EX_2"
 SWATParams_path       <- "C:/OSTRICH_SWAT/data/swatParam.txt"
 targetParams_path     <- "C:/OSTRICH_SWAT/examples/EX_2/params.xlsx"
-SWATexe               <- "C:/OSTRICH_SWAT/exe/glacier_module_git_release.exe"
+SWATexe               <- "C:/OSTRICH_SWAT/exe/swat-gl_release.exe"
 source_path           <- "C:/OSTRICH_SWAT/examples/EX_2/source"
 TxtInOut_path         <- "TxtInOut"
 
