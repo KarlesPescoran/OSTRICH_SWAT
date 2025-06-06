@@ -141,7 +141,7 @@ copy TxtInOut_tpl\000030000.sub TxtInOut\000030000.sub
 
 cd TxtInOut
 
-C:\OSTRICH_SWAT\exe\glacier_module_git_release.exe
+C:\OSTRICH_SWAT\exe\swat-gl_release.exe
 
 cd ..
 

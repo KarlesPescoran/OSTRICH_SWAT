@@ -4,9 +4,9 @@
          31.0000    | GW_DELAY : Groundwater delay [days]
           0.0480    | ALPHA_BF : Baseflow alpha factor [days]
        1000.0000    | GWQMN : Threshold depth of water in the shallow aquifer required for return flow to occur [mm]
-          0.0369    | GW_REVAP : Groundwater "revap" coefficient
+          0.0200    | GW_REVAP : Groundwater "revap" coefficient
         750.0000    | REVAPMN: Threshold depth of water in the shallow aquifer for "revap" to occur [mm]
-          0.9996    | RCHRG_DP : Deep aquifer percolation fraction
+          0.9960    | RCHRG_DP : Deep aquifer percolation fraction
           1.0000    | GWHT : Initial groundwater height [m]
           0.0030    | GW_SPYLD : Specific yield of the shallow aquifer [m3/m3]
           0.0000    | SHALLST_N : Initial concentration of nitrate in shallow aquifer [mg N/l]

@@ -137,7 +137,7 @@
         1 archivo(s) copiado(s).
         1 archivo(s) copiado(s).
         1 archivo(s) copiado(s).
-                SWAT2016-Gl               
+                SWAT2016-GL               
                Rev. 664 - Glacier Module
       Soil & Water Assessment Tool    
                PC Version             
@@ -155,4 +155,4 @@
   Executing year   10
 
  Execution successfully completed 
-Time difference of 1.049339 secs
+Time difference of 0.954787 secs

@@ -3,11 +3,11 @@ Modeling Options: Land Area
 Water Balance:
            1.000    | SFTMP : Snowfall temperature [ºC]
            0.500    | SMTMP : Snow melt base temperature [ºC]
-          14.550    | SMFMX : Melt factor for snow on June 21 [mm H2O/ºC-day]
-           0.100    | SMFMN : Melt factor for snow on December 21 [mm H2O/ºC-day]
-           0.617    | TIMP : Snow pack temperature lag factor
+          15.513    | SMFMX : Melt factor for snow on June 21 [mm H2O/ºC-day]
+           4.627    | SMFMN : Melt factor for snow on December 21 [mm H2O/ºC-day]
+           0.000    | TIMP : Snow pack temperature lag factor
            1.000    | SNOCOVMX : Minimum snow water content that corresponds to 100% snow cover [mm]
-           0.299    | SNO50COV : Fraction of snow volume represented by SNOCOVMX that corresponds to 50% snow cover
+           0.696    | SNO50COV : Fraction of snow volume represented by SNOCOVMX that corresponds to 50% snow cover
                1    | IPET: PET method: 0=priest-t, 1=pen-m, 2=har, 3=read into model
                     | PETFILE: name of potential ET input file
            0.950    | ESCO: soil evaporation compensation factor

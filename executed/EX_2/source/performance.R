@@ -20,7 +20,7 @@ invisible(suppressMessages(suppressWarnings(lapply(requiredPackages, library, ch
 # SET FILE PATHS (USER)
 ###############################################################################
 # Full paths
-#Workdir              <- "C:/OSTRICH_SWAT/executed/EX_2"
+Workdir              <- "C:/OSTRICH_SWAT/executed/EX_2"
 source_path          <- "C:/OSTRICH_SWAT/executed/EX_2/source"
 targetVariables_path <- "C:/OSTRICH_SWAT/executed/EX_2/variables.xlsx"
 obsVariables_path    <- "C:/OSTRICH_SWAT/data/obs"
@@ -38,7 +38,7 @@ TxtInOut_name        <- "TxtInOut"
 ###############################################################################
 # Checking files existence
 ###############################################################################
-#setwd(Workdir)
+setwd(Workdir)
 User_output_path     <- paste0(source_path,"/User_output_read.R")
 User_objective_path  <- paste0(source_path,"/User_objective_function.R")
 save_output_name     <- "sim"
